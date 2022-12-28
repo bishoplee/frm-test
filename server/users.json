@@ -1,0 +1,46 @@
+[
+  {
+		"first_name": "Olumide",
+		"middle_name": "",
+		"last_name": "Adewale",
+		"phone_number": "123-456-7890",
+		"email": "olumide.adewale@example.com",
+		"password": "0lum!d3@d3w@l3",
+		"identifier": "abc123",
+		"role": "User",
+		"approved": true
+  },
+  {
+		"first_name": "Chika",
+		"middle_name": "",
+		"last_name": "Okonkwo",
+		"phone_number": "456-789-0123",
+		"email": "chika.okonkwo@example.com",
+		"password": "ch!k@0k0nkw0",
+		"identifier": "def456",
+		"role": "User",
+		"approved": false
+  },
+  {
+		"first_name": "Olajumoke",
+		"middle_name": "",
+		"last_name": "Babawale",
+		"phone_number": "789-012-3456",
+		"email": "olajumoke.olumide@example.com",
+		"password": "0l@jum0k3@lum!d3",
+		"identifier": "ghi789",
+		"role": "User",
+		"approved": false
+  },
+  {
+		"first_name": "Temitope",
+		"middle_name": "",
+		"last_name": "Adebayo",
+		"phone_number": "012-345-6789",
+		"email": "temitope.adebayo@example.com",
+		"password": "t3m!t0p3@d3b@y0",
+		"identifier": "jkl012",
+		"role": "Admin",
+		"approved": true
+  }
+]
