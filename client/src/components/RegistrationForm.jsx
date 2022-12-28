@@ -28,8 +28,7 @@ const RegistrationForm = () => {
 	};
 
 	const validatePassword = (password) => {
-		const re =
-			/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/;
+		const re = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)[A-Za-z\d]{8,}$/;
 		return re.test(password);
 	};
 
@@ -63,7 +62,7 @@ const RegistrationForm = () => {
 
 		if (name === "password" && !validatePassword(value)) {
 			setPasswordError(
-				"Password must be at least 8 characters long and contain at least one letter, one number, and one special character"
+				"Password must be at least 8 characters long and contain at least one capital letter and number"
 			);
 		} else {
 			setPasswordError("");
@@ -119,7 +118,7 @@ const RegistrationForm = () => {
 	};
 
 	return (
-		<>
+		<div className="wrapper">
 			{submitted !== ""
 				? (<p className="success">
 						{submitted}
@@ -205,7 +204,7 @@ const RegistrationForm = () => {
 				
 				)
 			}
-		</>
+		</div>
 	);
 };
 

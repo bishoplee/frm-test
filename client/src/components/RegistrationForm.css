@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .RegistrationForm {
-  width: 100%;
   margin: 0 auto;
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 20px;
-  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  width: 320px;
 }
 
 .RegistrationForm label {
@@ -57,15 +58,17 @@
 }
 
 p.success {
-  margin: 8px 0 24px;
-  padding:8px 16px;
+  margin: 8px auto 24px;
+  padding: 8px 16px;
   color: #2da333;
   background: #eeffef;
   font-size: 0.95rem;
   text-align: center;
-  line-height:24px;
-  border-radius:5px;
+  line-height: 24px;
+  border-radius: 5px;
+  overflow-wrap: break-word;
 }
+
 p.error.fields{
   margin: 8px 0 24px!important;
 

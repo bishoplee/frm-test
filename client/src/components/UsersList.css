@@ -1,0 +1,34 @@
+h1 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+li {
+  list-style: none;
+  display:flex;
+  padding:8px;
+  gap: 24px;
+  margin:2px;
+}
+
+li span:first-child {
+  font-size:.85rem;
+}
+
+li span {flex:1;min-width:200px;}
+
+li span.email {
+  width:200px;
+  font-size:.74rem;
+}
+
+li span.email + span {
+  font-size:.75rem;
+}
+
+.verified {
+  background: rgb(219, 235, 219);
+}
+
+.pending{
+  background:rgb(226, 225, 225);
+}
